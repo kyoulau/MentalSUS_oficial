@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="./javascript/pag-Perfil.js" ></script>
+    <style>
+        h3{
+            text-align: left;
+        }
+        body{
+            color: darkgray;
+        }
+        input{
+            width: 100%;
+            margin: 2%;
+            margin-left: 0%;
+        }
+    </style>
+    <title>PERFIL</title>
+</head>
+<body>
+    <header class="top">
+        <aside style="width: 1000%;">
+            <h1 style="font-size: xx-large;">Perfil</h1>
+        </aside>
+    </header>
+    <div class="container">
+        <div class="box" style="text-align: center;">
+            <img src="imagens/foto.png" alt="" style="border-radius: 50%;">
+            <h3>Nome:</h3>
+            <input type="text" placeholder="Perivaldo da Silva Pinto" nome="nome">
+            <h3>Email:</h3>
+            <input id="emeil" type="email" placeholder="perivaldosilva@gmail.com" e-mail="e-mail">
+            <h3>Telefone</h3>
+            <input id="tel" type="number" placeholder="(99) 9 9999-9999" numero="numero">
+            <h4>Politicas de privacidade</h4>
+
+            <button  style="margin: 2%; background-color: purple;" onclick="numeroTelefone()" >Salvar informações</button>
+
+            <button style="margin: 2%; background-color: purple;" onclick="window.location.href = 'carregamento.html'">Desconectar</button>
+        </div>
+    </div>
+</body>
+</html>

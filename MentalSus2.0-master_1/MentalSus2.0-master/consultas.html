@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/styles.css">
+    <script type="text/javascript" src="./javascript/cadastro.js"></script>
+    <title>Consultas</title>
+    <script src="./javascript/consultas.js"></script>
+
+
+</head>
+<body>
+    <header class="top" style="border-end-end-radius: 30px; border-end-start-radius: 30px; border-bottom-style: none; background-color: #11C4AE; color: white; position: fixed; height: min-content; width: 100%;">
+        <section style="width: 10%;">
+            <button style="margin: 15%; background-color: #11C4AE;" onclick="window.location.href = 'home_paciente.html'"><img src="imagens/back.png" alt="" style="width: 50%; margin: 5%;"></button>
+        </section>
+        <aside style="width: 80%; text-align: center;">
+            <h1 style="color: white; font-size: xx-large;">Consultas</h1>
+        </aside>
+    </header> 
+    <main class="container">
+        <article class="box">
+            <div class="caixa">
+                <div class="top" style="background-color: #11C4AE; color: white; border-top-left-radius: 30px; border-top-right-radius: 30px;">
+                    <section style="width: 20%;">
+                        <img src="imagens/user_icon.png" alt="user icon" style="width: 80%; margin: 10%;">
+                    </section>
+                    <section style="width: 70%; text-align: left;">
+                        <br>
+                        <p>Dra. Fernanda Silva</p>
+                        <p>Psicóloga</p>
+                    </section>
+                    <aside style="width: 10%;">
+                        <img src="imagens/pontos.png" onclick="mostrarNotificacoes()" alt="options" style="width: 80%; margin: 10%;">
+                    </aside>
+                </div>
+                <footer>
+                    <div class="top">
+                        <section style="width: 70%; align-items: center; display: flex;">
+                            <button style="background-color: #11C4AE; color: white; text-align: left; height: min-content; width: 40%; vertical-align: middle; margin: 2.5%;"><img src="imagens/calendar.png" alt="calendar" style="width: 10%; margin: 2%;">07 de julho</button>
+                            <button style="background-color: #11C4AE; color: white; text-align: left; height: min-content; width: 40%; vertical-align: middle; margin: 2.5%;"><img src="imagens/clock.png" alt="clock" style="width: 10%; margin: 2%;">12:00</button>
+                        </section>
+                        <aside style="width: 20%; margin: 2.5%;">
+                            <button id="botao" onclick="cancelarConsulta()" style="background-color: purple; color: white; text-align: center; height: min-content; width: 100%; vertical-align: middle; margin: 2.5%; ">Cancelar consulta</button>
+                        </aside>
+                    </div>
+                </footer>
+            </div>
+            <div class="caixa">
+                <div class="top" style="background-color: #11C4AE; color: white; border-top-left-radius: 30px; border-top-right-radius: 30px;">
+                    <section style="width: 20%;">
+                        <img src="imagens/user_icon.png" alt="user icon" style="width: 80%; margin: 10%;">
+                    </section>
+                    <section style="width: 70%; text-align: left;">
+                        <br>
+                        <p>Dra. Fernanda Silva</p>
+                        <p>Psicóloga</p>
+                    </section>
+                    <aside style="width: 10%;">
+                        <img src="imagens/pontos.png" onclick="mostrarNotificacoes()" alt="options" style="width: 80%; margin: 10%;">
+                    </aside>
+                </div>
+                <footer>
+                    <div class="top">
+                        <section style="width: 70%; align-items: center; display: flex;">
+                            <button style="background-color: #11C4AE; color: white; text-align: left; height: min-content; width: 40%; vertical-align: middle; margin: 2.5%;" onclick="cancelarConsulta()" ><img src="imagens/calendar.png" alt="calendar" style="width: 10%; margin: 2%;">07 de julho</button>
+                            <button style="background-color: #11C4AE; color: white; text-align: left; height: min-content; width: 40%; vertical-align: middle; margin: 2.5%;"><img src="imagens/clock.png" alt="clock" style="width: 10%; margin: 2%;">14:00</button>
+                        </section>
+                        <aside style="width: 20%; margin: 2.5%;">
+                            <button id="botao" onclick="cancelarConsulta()" style="background-color: purple; color: white; text-align: center; height: min-content; width: 100%; vertical-align: middle; margin: 2.5%;" onclick="cancelarConsulta()">Cancelar consulta</button>
+                        </aside>
+                    </div>
+                </footer>
+            </div>
+                    <button id="botao" style="background-color: purple; text-align: center; display: flex; align-items: center; margin: 2%; margin-left: 25%;"><img src="imagens/plus.png" alt="mais_icon" style="width: 5%; margin: 2%;">Nova Consulta</button>
+        </article>     
+    </main>
+</body>
+</html>

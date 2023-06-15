@@ -1,0 +1,96 @@
+body{
+    margin: 0%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h1{
+    color: black;
+}
+
+button{
+    border-radius: 10px;
+    border-style: none;
+    margin-bottom: 2%;
+    color: white;
+    width: 50%;
+    height: 40px;
+}
+
+input{
+    width: 500px;
+    height: 30px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: darkgray;
+}
+
+section, aside{
+    justify-content: center;
+    text-align: center;
+    width: 45%;
+}
+
+.container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    width: 50%;
+    height: 50%;
+}
+
+.enter{
+    text-align: right;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 25%;
+    width: 50%;
+    height: 50%;
+}
+
+.option {
+    padding: 20px 0px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    border-bottom-style: solid;
+    padding: 10px;
+}
+
+.top{
+    display: flex;
+    justify-content: baseline;
+    text-align: center;
+}
+
+.imagem-titulo{
+    width: 20%;
+    margin: auto;
+    display: block;
+}
+
+.span{
+    color: #61199A;
+    text-align: right;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    text-decoration-line: underline;
+    color: #61199A;
+}
+
+.caixa{
+    margin: 10%;
+    border-style: solid;
+    border-color: black;
+    border-radius: 30px;
+}
